@@ -34,7 +34,7 @@ import (
 type SimpleChaincode struct {
 }
 
-// Initialize the chaincode with entities A and B
+// Initialize the chaincode with entities A and  B and C and D
 func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 	fmt.Println("ex02 Init")
 	_, args := stub.GetFunctionAndParameters()
